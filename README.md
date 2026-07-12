@@ -46,13 +46,13 @@ This project answers these questions using SQL-based exploratory data analysis.
 
 ## 3. Objectives
 
-- Explore the retail sales database
-- Assess data quality
-- Understand customer demographics
-- Analyze product information
-- Explore sales trends
-- Identify business patterns
-- Prepare the dataset for advanced analytics
+- Explore the overall database structure and schema.
+- Understand customer and product dimensions.
+- Analyze the historical sales timeframe.
+- Evaluate key business measures and performance metrics.
+- Assess the magnitude and distribution of business entities.
+- Identify top and bottom performing customers, products, and categories.
+- Establish a strong analytical foundation for advanced business reporting and analytics.
 
 ---
 
@@ -124,46 +124,71 @@ erDiagram
 
 ## 7. Skills Demonstrated
 
-- Data Exploration
-- Data Validation
+- Exploratory Data Analysis (EDA)
 - Data Profiling
-- Aggregate Analysis
+- Data Validation
+- Database Exploration
 - SQL Joins
-- GROUP BY
+- Aggregate Functions
 - CASE Statements
-- Date Functions
 - Common Table Expressions (CTEs)
-- Business Data Understanding
+- Window Functions
+- Ranking Functions
+- Date Functions
+- Business Data Exploration
+- Analytical Reporting
 
 ---
 
 ## 8. Exploratory Data Analysis
 
-The project explores:
+The project investigates the retail sales database through six structured exploratory questions:
 
-- Database structure
-- Customer data
-- Product data
-- Sales transactions
-- Data completeness
-- Missing values
-- Duplicate records
-- Sales distribution
-- Customer distribution
-- Product distribution
-- Revenue trends
+### 1. Understanding the Database Structure
+- Explore database schemas, tables, and columns.
+- Examine table relationships and available data assets.
+
+### 2. Understanding Customer and Product Dimensions
+- Analyze customer demographics and geographic distribution.
+- Explore product categories, subcategories, and hierarchy.
+
+### 3. Understanding the Sales Timeframe
+- Identify historical sales coverage.
+- Analyze customer registration periods.
+- Explore customer age distribution.
+- Examine yearly order trends.
+
+### 4. Understanding Key Business Measures
+- Calculate revenue, orders, quantity sold, average selling price, and product statistics.
+- Generate consolidated business KPIs.
+
+### 5. Understanding Business Magnitude
+- Analyze customer distribution across countries.
+- Explore product distribution by category.
+- Evaluate revenue by category.
+- Measure purchasing frequency and product demand.
+
+### 6. Identifying Top and Bottom Performers
+- Top customers by revenue.
+- Bottom customers by revenue.
+- Best-selling products.
+- Lowest-performing products.
+- Highest revenue-generating categories.
 
 ---
 
 ## 9. Business Questions Explored
 
-- How many customers, products, and transactions exist?
-- What is the sales date range?
-- Which countries have the most customers?
-- Which product categories contain the most products?
-- Which products generate the highest revenue?
-- Are there missing or duplicate records?
-- How are sales distributed over time?
+- What tables and schemas exist in the database?
+- What customer and product information is available?
+- What is the historical period covered by the sales data?
+- How many customers, products, orders, and transactions exist?
+- Which countries contribute the largest customer base?
+- Which product categories dominate the catalog?
+- What are the key business measures available for analysis?
+- Which customers generate the highest revenue?
+- Which products perform the best and worst?
+- Which product categories contribute the most revenue?
 
 ---
 
@@ -189,11 +214,14 @@ The project explores:
 
 ## 11. Key Findings
 
-- Customer and product information were successfully explored and validated.
-- Sales data covers multiple product categories and customer locations.
-- Revenue is concentrated within a subset of products and categories.
-- Exploratory analysis identified important business patterns for further analytics.
-- The dataset is suitable for advanced customer and sales analysis.
+- The retail sales database follows a well-structured star schema consisting of one fact table and two dimension tables.
+- The dataset spans multiple years, making it suitable for trend and time-series analysis.
+- Customer records include demographic attributes that support segmentation and profiling.
+- Product information is organized into categories and subcategories, enabling hierarchical analysis.
+- Key business measures provide a comprehensive overview of sales performance and business scale.
+- Revenue generation is concentrated among a subset of products and customer segments.
+- Ranking analysis successfully identifies high-performing and low-performing customers and products.
+- The dataset is complete and well-structured, providing a strong foundation for advanced analytics, dashboard development, and business reporting.
 
 ---
 
