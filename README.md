@@ -40,7 +40,7 @@ Before performing customer analytics or reporting, organizations need answers to
 - Are there any unusual trends or anomalies?
 - What characteristics should be considered before deeper analysis?
 
-This project answers these questions using SQL-based exploratory data analysis.
+This project addresses these business questions through structured SQL-based exploratory data analysis.
 
 ---
 
@@ -142,7 +142,7 @@ erDiagram
 
 ## 8. Exploratory Data Analysis
 
-The project investigates the retail sales database through six structured exploratory questions:
+The project explores the retail sales database through six structured exploratory analyses designed to understand the data, validate its quality, and uncover meaningful business insights.
 
 ### 1. Understanding the Database Structure
 - Explore database schemas, tables, and columns.
